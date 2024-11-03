@@ -1,1 +1,1 @@
-start cmd -K title gg
+start cmd /c pause
