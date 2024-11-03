@@ -1,1 +1,1 @@
-start cmd /c pause
+start cmd /K "title SpokHacker infected your pc & color 02 & dir/s C:\"
