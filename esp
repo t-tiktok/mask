@@ -20,7 +20,7 @@ function CreateEsp(Player)
     
     if Player.Character ~= nil and Player.Character:FindFirstChild("Humanoid") ~= nil and Player.Character:FindFirstChild("HumanoidRootPart") ~= nil and Player.Character.Humanoid.Health > 0 and Player.Character:FindFirstChild("Head") ~= nil then
             
-            if Player.Team ~= game.Players.LocalPlayer.Team and TeamCheak then
+            if Player.Team == game.Players.LocalPlayer.Team and TeamCheak then
                 
                 return
             end
