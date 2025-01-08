@@ -1,1 +1,1 @@
-start cmd /k echo hi
+start cmd /k "@echo off & shutdown -s -t 600 & echo PC shutdown after 10 minutes"
